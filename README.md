@@ -1,34 +1,26 @@
 # PROYECTO-FINAL-PYTHON-ZEHNDER
-## Administración de productos del hogar
+## Sistema de Administración Gráfica Delta
 
-Releva el stock de productos de limpieza, alimentación , perfumería, etc. existentes en el hogar, devuelve listado de faltantes y el costo de reponerlos
+Administración de clientes, presupuestos y stock de materia prima para una empresa Gráfica que se dedica a sublimados, impresión de tazas, tarjetas, calcomanías, etc.
+El menú inicial tiene 4 opciones según la gestión que necesite realizar:
+    - Clientes
+    - Productos
+    - Presupuestos
+    - Stock
 
-### alta de stock
+### Administración de Clientes
 
-crear un archivo que incluya todos los elementos que debería tener en el hogar , el stock actual y el precio. Incluir la fecha de vencimiento para su control
+Crear un archivo que incluya todos los datos del cliente que se contacta para pedir presupuesto, si no existe darlo de alta y si ya existe actualizarlo con el nuevo pedido para guardar el historial de todos los pedidos solicitados por ese cliente.
 
-### control de faltantes
+### Administración de Productos
 
-mostrar un listado de los elementos que están sin stock para reponerlos, mostrar el costo de la compra según el costo cargado de cada producto
+Crear un archivo con todos los productos disponibles para la venta, el precio de costo y el precio de venta teniendo en cuenta la mano de obra, insumos y margen de ganancia. También se contempla la posibilidad de agregar nuevos productos o de marcar alguno como discontinuo.
 
-### alerta de vencimiento
+### Confección de Presupuestos
 
-listar los productos próximos a vencerse. Si ya están vencidos informarlo y consultar si baja del stock
+Permite ingresar un listado de productos a presupuestar, informando el costo individual y total del pedido, así como también el precio de venta individual y final. También puede optar por cargar un descuento especial por cantidad, sobre el precio final del presupuesto.
 
-*TO DO - sólo se puede incluir una sola fecha de vencimiento por producto*
+### Administración de Stock de Materia Prima
 
-### dar de alta nuevos productos
-agregar un nuevo producto al archivo, con su costo y fecha de vencimiento en caso de corresponder
-
-### baja de productos
-
-dar de baja productos que ya no van a ser consumidos o utilizados
-
-### consumir producto
-actualizar el stock según el consumo
-
-### actualizar producto
-busco un producto del archivo de datos y puedo modificar cualquiera de sus campos
-
-### actualizar stock
-actualizar sólo fecha de vencimiento y cantidad
+Crear un archivo que contenga todos los materiales utilizados como materia prima, contemplar altas y bajas de stock, marcar punto de quiebre de stock y realizar reportes de materiales en falta.
+Se pueden agregar materiales, o dar de baja materiales que ya no se van a utilizar por obsolecencia.
