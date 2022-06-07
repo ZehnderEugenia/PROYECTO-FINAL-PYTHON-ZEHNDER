@@ -1,12 +1,13 @@
 # PROYECTO-FINAL-PYTHON-ZEHNDER
 ## Sistema de Administración Gráfica Delta
-
+  
 Administración de clientes, presupuestos y stock de materia prima para una empresa Gráfica que se dedica a sublimados, impresión de tazas, tarjetas, calcomanías, etc.
 El menú inicial tiene 4 opciones según la gestión que necesite realizar:
-    * Clientes
-    * Productos
-    * Presupuestos
-    * Stock
+    * Clientes  
+    * Productos  
+    * Presupuestos  
+    * Stock  
+
 
 ### Administración de Clientes
 
