@@ -24,25 +24,10 @@
 # 9.SALIR
 
 
-# def menuOption(option):
-#     #print("MENU PRINCIPAL\n","\t1.CLIENTES\n""\t2.PRODUCTOS\n""\t3.STOCK\n""\t4.PEDIDOS\n""\t9.SALIR\n")
-#     #option=(input("Ingrese una opción del Menú:\n"))
-#     if option.isdigit():
-#         option=int(option)
-#         return(option)
-#     else:
-#         print("La opción ingresada no es válida")
-#         print("MENU PRINCIPAL\n","\t1.CLIENTES\n""\t2.PRODUCTOS\n""\t3.STOCK\n""\t4.PEDIDOS\n""\t9.SALIR\n")
-#         option=(input("Ingrese una opción del Menú:\n"))        
-
-
-
 def mainMenu():
     print("MENU PRINCIPAL\n","\t1.CLIENTES\n""\t2.PRODUCTOS\n""\t3.STOCK\n""\t4.PEDIDOS\n""\t9.SALIR\n")
     option=int(input("Ingrese una opción del Menú:\n"))
     while True:
-        #print("MENU PRINCIPAL\n","\t1.CLIENTES\n""\t2.PRODUCTOS\n""\t3.STOCK\n""\t4.PEDIDOS\n""\t9.SALIR\n")
-        #option=int(input("Ingrese una opción del Menú:\n"))
         if option == 1:
             print("llamar a menu clientes")
             option=int(input("Ingrese una opción del Menú:\n"))
@@ -70,7 +55,6 @@ def mainMenu():
             print("MENU PRINCIPAL\n","\t1.CLIENTES\n""\t2.PRODUCTOS\n""\t3.STOCK\n""\t4.PEDIDOS\n""\t9.SALIR\n")
             option=int(input("Ingrese una opción del Menú:\n"))
     exit
-
 
 
 mainMenu()
